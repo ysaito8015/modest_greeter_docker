@@ -16,3 +16,6 @@ RUN touch ~/.bashrc && cd /tmp \
 && apt install -y inotify-tools
 
 RUN mix local.hex --force && mix local.rebar && mix archive.install $TEMP/phoenix_new-1.2.5.ez --force
+
+RUN mkdir -p /root/oiax/
+WORKDIR /root/oiax/
