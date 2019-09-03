@@ -17,5 +17,5 @@ RUN touch ~/.bashrc && cd /tmp \
 
 RUN mix local.hex --force && mix local.rebar && mix archive.install $TEMP/phoenix_new-1.2.5.ez --force
 
-RUN mkdir -p /root/oiax/
-WORKDIR /root/oiax/
+RUN mkdir -p /root/oiax/projects
+WORKDIR /root/oiax/projects
