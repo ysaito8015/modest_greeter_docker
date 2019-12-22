@@ -5,9 +5,9 @@
 docker run -it -p 4000:4000 -v $(pwd):/work/projects/ modest_greeter:ph1.4.11 /bin/bash
 
 # docker tag
-ysaito8015/modest_greeter:ph1.2.5
-ysaito8015/modest_greeter:ph1.4.10
-ysaito8015/modest_greeter:ph1.4.11
+- ysaito8015/modest_greeter:ph1.2.5
+- ysaito8015/modest_greeter:ph1.4.10
+- ysaito8015/modest_greeter:ph1.4.11
 
 # docker hub
 [ysaito8015/modest_greeter](https://cloud.docker.com/u/ysaito8015/repository/docker/ysaito8015/modest_greeter)
