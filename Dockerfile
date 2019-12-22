@@ -9,7 +9,6 @@ RUN touch ~/.bashrc && cd /tmp \
 && apt update \
 && apt install -y inotify-tools
 
-RUN mix local.hex --force && mix local.rebar --force && mix archive.install hex phx_new --force
+RUN mix local.hex --force && mix local.rebar --force && mix archive.install hex phx_new 1.4.10 --force
 
-RUN mkdir -p /work/projects
-WORKDIR /work/projects
+WORKDIR /work/
